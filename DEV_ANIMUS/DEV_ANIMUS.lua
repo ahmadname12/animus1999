@@ -2,7 +2,7 @@ package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
   ..';.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
-require("./DevProx/utils")
+require("./DEV_ANIMUS/utils")
 
 local f = assert(io.popen('/usr/bin/git describe --tags', 'r'))
 VERSION = assert(f:read('*a'))
@@ -270,23 +270,23 @@ function create_config( )
     "run1",
     "redis"
     },
-    sudo_users = { 218385683,0,tonumber(our_id)},--Sudo users
+    sudo_users = { 323636188,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[🚏- اهلا بك عزيزي WeLcOmE
-سورس ديف بروكس ( DevProx )
+سورس ديف انيموسي ( DEV_ANIMUS )
 
 〰 ➗ 〰 ✖️ 〰 ➕ 〰
-Developer ⛳️🏒  :
-🔸 - @IQ_ABS
+DEV_ANIMUS ⛳️🏒  :
+🔸 - @ahmadnamed
 Channel sors 🏈  :
-🔹 - @DEV_PROX
+🔹 - @ahmadnameddd
 〰 ➗ 〰 ✖️ 〰 ➕ 〰
 
 🛰 - رابط السورس :
-https://github.com/iqabs/DevProx.git : link in githup]],
-    help_text = [[ْDEV @IQ_ABS]],
-	help_text_super =[[ْDEV @IQ_ABS]],
-help_text_realm = [[ْDEV @IQ_ABS]],
+https://github.com/ahmadname12/animus1999.git : link in githup]],
+    help_text = [[ْDEV @ahmadnamed]],
+	help_text_super =[[ْDEV @ahmadnamed]],
+help_text_realm = [[ْDEV @ahmadnamed]],
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
