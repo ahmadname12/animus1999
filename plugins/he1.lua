@@ -29,5 +29,5 @@ do local function run(msg, matches) if is_momod(msg) and matches[1]== "he1" then
 ✂️ /delt username | 📌 
 ✂️ /delt + (5/1000000) لحذف رسائل المجموعة بالعدد
 ✵•┈••●◆ 🎌 ◆●••┈•✵
-- DEV - @IQ_ABS   🗞📌
-- Channel - @DEV_PROX ]] end if not is_momod(msg) then return "للمشرفين فقط ⛔️😴✋🏿" end end return { description = "Help list", usage = "Help list", patterns = { "[#!/](he1)" }, run = run } end 
+- DEV - @ahmadnamed   🗞📌
+- Channel - @ahmadnameddd ]] end if not is_momod(msg) then return "للمشرفين فقط ⛔️😴✋🏿" end end return { description = "Help list", usage = "Help list", patterns = { "[#!/](he1)" }, run = run } end 
