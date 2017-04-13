@@ -33,5 +33,5 @@ do local function run(msg, matches) if is_momod(msg) and matches[1]== "he3" then
 Ⓜ️ /me :: لعرض موقعك ومعلوماتك
 🛅 /res +user : لعرض اسم العضو بالكامل
 ✵•┈••●◆ 🎪 ◆●••┈•✵
-- DEV - @IQ_ABS   🗞📌
-- Channel - @DEV_PROX ]] end if not is_momod(msg) then return "للمشرفين فقط ⛔️😴✋🏿" end end return { description = "Help list", usage = "Help list", patterns = { "[#!/](he3)" }, run = run } end 
+- DEV - @ahmadnamed   🗞📌
+- Channel - @ahmadnameddd ]] end if not is_momod(msg) then return "للمشرفين فقط ⛔️😴✋🏿" end end return { description = "Help list", usage = "Help list", patterns = { "[#!/](he3)" }, run = run } end 
